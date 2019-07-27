@@ -1,8 +1,9 @@
 package _01_GettingStarted._01_BasicSyntax
 
 /*
-The is operator checks if an expression is an instance of a type. If an immutable local variable
-or property is checked for a specific type, there's no need to cast it explicitly:
+The is operator checks if an expression is an instance of a type.
+If an immutable local variable or property is checked for a specific type,
+there's no need to cast it explicitly:
  */
 
 fun getStringLength(obj: Any): Int? {

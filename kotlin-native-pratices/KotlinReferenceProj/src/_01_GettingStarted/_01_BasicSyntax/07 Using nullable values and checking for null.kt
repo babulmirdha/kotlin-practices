@@ -20,6 +20,7 @@ fun parseInt(any: Any): Int? {
 //Use a function returning nullable value:
 
 fun printProduct(arg1: String, arg2: String) {
+    // call parse integer function here
     val x = parseInt(arg1)
     val y = parseInt(arg2)
 
@@ -54,3 +55,11 @@ fun printProductX(arg1: String, arg2: String) {
 /**
  * See Null-safety.
         */
+
+fun main() {
+    printProduct("item", "5")
+    printProduct("4", "5")
+
+    printProductX("item", "5")
+    printProductX("4", "5")
+}

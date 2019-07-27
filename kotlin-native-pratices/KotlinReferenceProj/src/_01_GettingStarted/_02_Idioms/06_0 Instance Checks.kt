@@ -1,7 +1,8 @@
 package _01_GettingStarted._02_Idioms
 
-import _01_GettingStarted._02_Idioms.models.Bar
-import _01_GettingStarted._02_Idioms.models.Foo
+class Foo
+
+class Bar
 
 
 fun checkObject(x:Any){
@@ -21,11 +22,11 @@ fun checkObject(x:Any){
 
 fun main(){
     // Passing  instance of Bar
-    val bar = Bar();
+    val bar = Bar()
     checkObject(bar)
 
     // Passing instance of Foo
-    val foo = Foo();
+    val foo = Foo()
     checkObject(foo)
 
     // Passing instance of String

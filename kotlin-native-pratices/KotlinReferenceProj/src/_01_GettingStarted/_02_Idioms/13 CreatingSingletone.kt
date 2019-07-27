@@ -5,6 +5,6 @@ object Resource {
 }
 
 fun main(){
-    println(Resource.name);
+    println(Resource.name)
 
 }

@@ -8,6 +8,7 @@ package _01_GettingStarted._01_BasicSyntax
 //    }
 //}
 
+
 //Using if as an expression:
 
- fun maxOf(a: Int, b: Int) = if (a > b) a else b
+fun maxOf(a: Int, b: Int) = if (a > b) a else b

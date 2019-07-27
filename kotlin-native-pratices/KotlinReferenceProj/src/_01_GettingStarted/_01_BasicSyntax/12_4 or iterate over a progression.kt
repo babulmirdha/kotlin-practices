@@ -1,7 +1,7 @@
 package _01_GettingStarted._01_BasicSyntax
 
 fun main(){
-//or over a progression:
+//or iterate over a progression:
     for (x in 1..10 step 2) {
         print(x)
     }
