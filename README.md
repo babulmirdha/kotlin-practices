@@ -1,1 +1,1 @@
-# kotlin-basic-practices
+# kotlin-practices
