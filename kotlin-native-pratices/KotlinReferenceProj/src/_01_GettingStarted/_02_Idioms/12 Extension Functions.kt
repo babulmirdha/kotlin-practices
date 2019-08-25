@@ -27,7 +27,7 @@ fun String.toSentenceCase(): String {
 //        if(index==0){
 //            output += words[0].capitalize() +" "
 //        }else{
-//            output += words[index] +" "
+//            output += words[index] + " "
 //        }
 
 
